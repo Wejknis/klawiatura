@@ -2,6 +2,6 @@
  int main() {
     char znak;
     scanf("%c", &znak);
-    printf("%i", znak);
+    printf("znak: %c, kod ascii: %i", znak, znak);
     return 0;
 }
